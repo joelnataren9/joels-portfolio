@@ -1,0 +1,17 @@
+@import './_variables.scss';
+
+.header_bg {
+    background-color: $blue_bg;
+}
+.nav_color :hover {
+    background-color: rgba(162, 163, 163, 0.699);
+    border-radius: 8px;
+}
+
+.logo {
+    margin: 0 2rem 0 0;
+    padding: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100px;
+}

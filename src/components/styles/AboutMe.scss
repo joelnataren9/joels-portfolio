@@ -1,0 +1,45 @@
+@import './_variables.scss';
+
+.resume {
+    height:80%;
+    width: 80%;
+
+}
+.resume_body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-title {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+
+.download{
+    text-decoration: none;
+    color: rgb(238, 238, 238)!important;
+    &:hover{
+        text-decoration: none ;
+        color: rgb(207, 204, 204) !important;
+    }
+    &:focus{
+        text-decoration: none ;
+        color: none;
+    }
+    &:active{
+        text-decoration: none ;
+        color: none;
+    }
+}
+
+.btn-download {
+    background-color: $blue_bg;
+    color: white;
+}
