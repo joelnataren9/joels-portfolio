@@ -1,1 +1,19 @@
-$blue_bg: #00686D;
+$blue_bg: #49868ae8; //00686D
+$container-bg : #0e313d;
+$width-br: 1200;
+
+.total-container {
+    width: $width-br;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+h2 {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+

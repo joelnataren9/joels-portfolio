@@ -1,0 +1,100 @@
+@import './_variables';
+
+
+.port-pos {
+    position: relative !important;
+}
+
+.portfolio-bg {
+    background-color: $container-bg;
+}
+.portfolio-container {
+    background-image: url("https://res.cloudinary.com/joeln7/image/upload/v1634923503/Portfolio/astronaut-4106766_1920_awsn6d.jpg");
+    object-position: -40px;
+    border-radius: 25px;
+    margin-top: -10%;
+    overflow: visible;
+    width: 100%;
+    z-index: 3;
+    max-height: 300vh;
+    padding-top: 5%;
+    padding-bottom: 40px;
+}
+
+.portfolio_img {
+    width: 100%;
+    max-width: 1500px;
+    height: inherit;
+    max-height: 92vh;
+    object-fit: scale-down;
+    margin: 0;
+    padding: 0;
+}
+
+.indicators-position {
+    z-index: 5;
+    position: absolute ;
+    right: 0 ;
+    bottom: 25px ;
+
+}
+.txt-white {
+    color: white;
+}
+
+.icon-size {
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn-portfolio {
+    background-color: $blue_bg;
+    color: white;
+    &:hover{
+        color: azure;
+    }
+}
+
+.mini-p {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.car {
+    width: 250px ;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+}
+.card-body {
+    width: 250px;
+}
+.card-title {
+    font-weight: 600;
+    width: inherit;
+}
+.card-text{
+    font-weight: 200;
+    color: antiquewhite;
+    width: inherit;
+}
+
+@media only screen and (max-device-width: 1000px) {
+    .mini-p {
+        display: block;
+        padding-left: 25%;
+    }
+
+    .portfolio-container {
+        background-image: url("https://res.cloudinary.com/joeln7/image/upload/v1634923503/Portfolio/astronaut-4106766_1920_awsn6d.jpg");
+        object-position: bottom;
+        object-fit: cover;
+    }
+
+}

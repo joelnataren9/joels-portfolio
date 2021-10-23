@@ -1,5 +1,25 @@
 @import './_variables.scss';
 
+
+
+.web-d-img {
+    border-radius: 40%;
+    width: 50%;
+}
+
+.about-us-container {
+    width: 100vw ;
+    position: relative;
+    overflow: hidden;
+    max-height: 300vh;
+}
+
+.bg-img {
+    background-image: url("https://res.cloudinary.com/joeln7/image/upload/v1634913857/Portfolio/techn1_vghqsh.jpg") ;
+    color: white;
+    height: 300vh;
+}
+
 .resume {
     height:80%;
     width: 80%;
@@ -7,7 +27,7 @@
 }
 .resume_body {
     display: block;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -16,6 +36,15 @@
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: 3rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+
+}
+ul, li {
+    font-size: 1.5rem;
 }
 .btn-center {
     display: flex;
